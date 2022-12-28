@@ -1,0 +1,102 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* Universal */
+html{
+    font-size: 16px;   
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+/* Navbar */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    height: auto;
+    position: sticky;
+    top: 1px;
+}
+
+nav ul{
+    display: flex;
+    width: auto;
+    list-style: none;
+    
+}
+.navbar{
+    align-content: center;
+}
+
+.navbar a{
+    padding-right: 2.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* Project */
+#projects{
+    background-color: antiquewhite;
+    padding: 1rem 0;
+    height: auto;
+}
+
+.pro-container{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.pro-container img{
+    height: 25rem;
+    width: 50rem;
+    margin-left: 3rem;
+    border-radius: 2rem;
+}
+
+.info-pro{
+    width: 37rem;
+    margin: 2rem;
+}
+
+/* Skill */
+#skill{
+    background-color: rgb(238, 195, 138);
+    height: 30rem;
+}
+
+/* About me */
+#about-me{
+    background-color: rgba(241, 192, 127, 0.616);
+    height: 30rem;
+}
+
+/* Contac */
+#contac{
+    background-color: antiquewhite;
+    height: 30rem;
+}
