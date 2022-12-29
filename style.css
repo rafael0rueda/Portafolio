@@ -11,12 +11,8 @@
 
 /* Universal */
 html{
-    font-size: 16px;   
-}
-
-h1{
-    font-size: 4rem;
-    text-align: center;
+    font-size: 16px;  
+    font-family: 'Inter'; 
 }
 
 h2{
@@ -25,6 +21,7 @@ h2{
 
 h3{
     font-size: 2rem;
+    font-family: 'Caramel';
 }
 
 p{
@@ -70,15 +67,28 @@ nav ul{
     height: auto;
 }
 
-.pro-container{
-    display: flex;
-    align-items: center;
-    margin: 1rem;
+#projects h1{
+    font-size: 4rem;
+    text-align: center;
 }
-.pro-container img{
-    height: 25rem;
-    width: 50rem;
-    margin-left: 3rem;
+
+.pro-container-left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 2rem;
+}
+
+.pro-container-right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 2rem;
+}
+
+img{
+    height: 20rem;
+    width: 40rem;
     border-radius: 2rem;
 }
 
@@ -95,6 +105,7 @@ nav ul{
 
 #skill h1{
     font-size: 3rem;
+    text-align: center;
 }
 
 .skill-container{
@@ -105,12 +116,68 @@ nav ul{
 
 /* About me */
 #about-me{
-    background-color: rgba(241, 192, 127, 0.616);
-    height: 30rem;
+    background-color: antiquewhite;
+    height: auto;
+    padding-bottom: 1.5rem;
 }
 
-/* Contac */
-#contac{
+#about-me h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#about-me p{
+    width: 80%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Footer */
+footer{
+    background-color: rgb(238, 195, 138);
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4{
+    font-size: 1.5rem;
+    padding: 1px;
+    align-self: center;
+    font-family: 'Caramel';
+}
+
+footer i{
+    padding: 1rem;
+}
+
+/* Contact */
+#contact{ 
     background-color: antiquewhite;
-    height: 30rem;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    height: 100vh;
+}
+
+#fcontact{
+    height: auto;
+    width: fit-content;
+    padding: 2rem;
+    border: 7px double black;
+}
+
+input{
+    border: 1px solid black;
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+textarea{
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
 }
