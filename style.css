@@ -15,12 +15,12 @@ html{
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
 }
 
 h2{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 h3{
@@ -29,6 +29,10 @@ h3{
 
 p{
     font-size: 2rem;
+}
+
+i{
+    font-size: 2.5rem;
 }
 
 /* Navbar */
@@ -86,7 +90,17 @@ nav ul{
 /* Skill */
 #skill{
     background-color: rgb(238, 195, 138);
-    height: 30rem;
+    height: auto;
+}
+
+#skill h1{
+    font-size: 3rem;
+}
+
+.skill-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
 }
 
 /* About me */
