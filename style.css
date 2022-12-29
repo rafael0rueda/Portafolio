@@ -60,6 +60,16 @@ nav ul{
     
 }
 
+@media only screen and (max-width: 480px){
+    h3{
+        display: none;
+    }
+    
+    .navbar a{
+        padding-right: 0.5rem;
+    }
+}
+
 /* Project */
 #projects{
     background-color: antiquewhite;
@@ -95,6 +105,33 @@ img{
 .info-pro{
     width: 37rem;
     margin: 2rem;
+}
+
+@media only screen and (max-width: 480px){
+    .pro-container-right, .pro-container-left{
+        display: block;
+        justify-content: center;
+        font-size: 1rem;
+    }
+
+    img{
+        height: 10rem;
+        width: 20rem;
+    }
+
+    .info-pro{
+        width: auto;
+        margin: auto;
+        font-size: 1rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
 }
 
 /* Skill */
@@ -180,4 +217,16 @@ textarea{
     background-color: aliceblue;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px){
+    #contact{
+        display: block;
+    }
+    #fcontact{
+        padding: 0.5rem;
+        border: none;
+        
+        border: 1px solid red;
+    }
 }
